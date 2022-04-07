@@ -5,5 +5,6 @@
     "armhf": "arm32v6/alpine:3.15.4",
     "armv7": "arm32v7/alpine:3.15.4",
     "i386": "i386/alpine:3.15.4"
+
   }
 }
