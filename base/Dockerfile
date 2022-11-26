@@ -1,4 +1,4 @@
-ARG BUILD_FROM=alpine:3.16.3
+ARG BUILD_FROM=alpine:3.17.0
 
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
@@ -82,7 +82,7 @@ RUN \
 RUN apk add --no-cache ca-certificates
 
 ENV GPG_KEY E3FF2839C048B25C084DEBE9B26995E310250568
-ENV PYTHON_VERSION 3.7.11
+ENV PYTHON_VERSION 3.10.7
 
 COPY *.patch /usr/src/
 RUN set -ex \
@@ -215,7 +215,7 @@ RUN cd /usr/local/bin \
     && ln -s python3-config python-config
 
 # if this is called "PIP_VERSION", pip explodes with "ValueError: invalid truth value '<VERSION>'"
-ENV PYTHON_PIP_VERSION 20.2.4
+ENV PYTHON_PIP_VERSION 22.2.2
 
 RUN set -ex; \
     \
