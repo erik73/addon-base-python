@@ -5,3 +5,7 @@ build_from:
   armhf: arm32v6/alpine:3.17.2
   armv7: arm32v7/alpine:3.17.2
   i386: i386/alpine:3.17.2
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 8932a83 (Fix yaml syntax)
