@@ -13,7 +13,7 @@
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
-Docker Python 3.10 base image.
+Docker Python 3.11 base image.
 
 ## About
 
