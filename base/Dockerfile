@@ -82,7 +82,7 @@ RUN \
 RUN apk add --no-cache ca-certificates
 
 ENV GPG_KEY E3FF2839C048B25C084DEBE9B26995E310250568
-ARG PYTHON_VERSION 3.10.7
+ARG PYTHON_VERSION="3.10.7"
 
 COPY *.patch /usr/src/
 RUN set -ex \
@@ -215,7 +215,7 @@ RUN cd /usr/local/bin \
     && ln -s python3-config python-config
 
 # if this is called "PIP_VERSION", pip explodes with "ValueError: invalid truth value '<VERSION>'"
-ARG PYTHON_PIP_VERSION 22.2.2
+ARG PYTHON_PIP_VERSION="22.2.2"
 
 RUN set -ex; \
     \
