@@ -48,6 +48,33 @@
       ],
       "datasourceTemplate": "pypi",
       "depNameTemplate": "pip"
+    },
+    {
+      "fileMatch": ["/Dockerfile$"],
+      "matchStrings": [
+        "ARG BASHIO_VERSION=[\"']?(?<currentValue>.+?)[\"']?\\s+"
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "hassio-addons/bashio",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["/Dockerfile$"],
+      "matchStrings": [
+        "ARG S6_OVERLAY_VERSION=[\"']?(?<currentValue>.+?)[\"']?\\s+"
+      ],
+      "datasourceTemplate": "github-tags",
+      "versioningTemplate": "loose",
+      "depNameTemplate": "just-containers/s6-overlay"
+    },
+    {
+      "fileMatch": ["/Dockerfile$"],
+      "matchStrings": [
+        "ARG TEMPIO_VERSION=[\"']?(?<currentValue>.+?)[\"']?\\s+"
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "home-assistant/tempio",
+      "versioningTemplate": "loose"
     }
   ],
   "packageRules": [
