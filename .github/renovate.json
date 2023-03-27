@@ -83,6 +83,12 @@
       "automerge": true
     },
     {
+      "matchDatasources": ["github-releases"],
+      "matchDepNames": ["hassio-addons/bashio"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
       "groupName": "Add-on base image",
       "matchDatasources": ["docker"]
     },
