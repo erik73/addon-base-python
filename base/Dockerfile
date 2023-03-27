@@ -217,7 +217,7 @@ RUN cd /usr/local/bin \
     && ln -s python3-config python-config
 
 # if this is called "PIP_VERSION", pip explodes with "ValueError: invalid truth value '<VERSION>'"
-ARG PYTHON_PIP_VERSION="22.2.2"
+ARG PYTHON_PIP_VERSION="22.3.1"
 
 RUN set -ex; \
     \
