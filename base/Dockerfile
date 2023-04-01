@@ -84,7 +84,7 @@ RUN \
 RUN apk add --no-cache ca-certificates
 
 ENV GPG_KEY E3FF2839C048B25C084DEBE9B26995E310250568
-ARG PYTHON_VERSION="3.10.7"
+ARG PYTHON_VERSION="v3.11.2"
 
 COPY *.patch /usr/src/
 RUN set -ex \
