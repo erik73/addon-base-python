@@ -37,7 +37,7 @@ RUN \
         pax-utils=1.3.7-r1 \
         readline-dev=8.2.1-r1 \
         sqlite-dev=3.40.1-r0 \
-        tar=1.34-r2 \
+        tar=1.34-r3 \
         tcl-dev=8.6.12-r1 \
         tk-dev=8.6.12-r1 \
         tk=8.6.12-r1 \
