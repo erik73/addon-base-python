@@ -26,7 +26,7 @@ RUN \
         gcc=12.2.1_git20220924-r4 \
         gdbm-dev=1.23-r0 \
         gnupg=2.2.40-r0 \
-        libc-dev=0.7.2-r3 \
+        libc-dev=0.7.2-r5 \
         libffi-dev=3.4.4-r0 \
         libnsl-dev=2.0.0-r0 \
         libtirpc-dev=1.3.3-r0 \
