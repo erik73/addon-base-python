@@ -24,7 +24,7 @@ RUN \
         expat-dev=2.5.0-r1 \
         findutils=4.9.0-r5 \
         gcc=12.2.1_git20220924-r4 \
-        gdbm-dev=1.23-r0 \
+        gdbm-dev=1.23-r1 \
         gnupg=2.2.40-r0 \
         libc-dev=0.7.2-r3 \
         libffi-dev=3.4.4-r0 \
