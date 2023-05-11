@@ -42,7 +42,7 @@ RUN \
         tk-dev=8.6.13-r1 \
         tk=8.6.13-r1 \
         util-linux-dev=2.38.1-r7 \
-        xz-dev=5.2.9-r0 \
+        xz-dev=5.4.3-r0 \
         xz=5.4.3-r0 \
         zlib-dev=1.2.13-r1 \
     \
