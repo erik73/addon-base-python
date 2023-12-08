@@ -29,7 +29,7 @@ RUN \
         libc-dev=0.7.2-r5 \
         libffi-dev=3.4.4-r3 \
         libnsl-dev=2.0.1-r0 \
-        libtirpc-dev=1.3.3-r2 \
+        libtirpc-dev=1.3.4-r0 \
         linux-headers=6.3-r0 \
         make=4.4.1-r1 \
         ncurses-dev=6.4_p20230506-r0 \
