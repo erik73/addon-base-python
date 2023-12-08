@@ -19,7 +19,7 @@ ARG PYTHON_SETUPTOOLS_VERSION="69.0.2"
 RUN \
     apk add --no-cache --virtual .build-dependencies \
         bzip2-dev=1.0.8-r6 \
-        dpkg-dev=1.21.21-r1 \
+        dpkg-dev=1.22.1-r0 \
         dpkg=1.22.1-r0 \
         expat-dev=2.5.0-r2 \
         findutils=4.9.0-r5 \
