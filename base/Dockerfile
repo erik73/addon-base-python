@@ -23,7 +23,7 @@ RUN \
         dpkg=1.22.6-r1 \
         expat-dev=2.6.2-r0 \
         findutils=4.9.0-r5 \
-        gcc=13.2.1_git20231014-r0 \
+        gcc=13.2.1_git20240309-r0 \
         gdbm-dev=1.23-r1 \
         gnupg=2.4.4-r0 \
         libc-dev=0.7.2-r5 \
