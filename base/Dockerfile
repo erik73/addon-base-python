@@ -26,7 +26,6 @@ RUN \
         gcc=13.2.1_git20240309-r0 \
         gdbm-dev=1.23-r1 \
         gnupg=2.4.5-r0 \
-        libc-dev=0.7.2-r5 \
         libffi-dev=3.4.6-r0 \
         libnsl-dev=2.0.1-r0 \
         libtirpc-dev=1.3.4-r0 \
