@@ -32,7 +32,7 @@ RUN \
         musl-dev=1.2.5-r0 \
         linux-headers=6.6-r0 \
         make=4.4.1-r2 \
-        ncurses-dev=6.4_p20240420-r0 \
+        ncurses-dev=6.4_p20240420-r1 \
         openssl-dev=3.3.2-r0 \
         pax-utils=1.3.7-r2 \
         readline-dev=8.2.10-r0 \
