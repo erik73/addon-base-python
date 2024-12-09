@@ -25,7 +25,7 @@ RUN \
         findutils=4.9.0-r5 \
         gcc=13.2.1_git20240309-r0 \
         gdbm-dev=1.23-r1 \
-        gnupg=2.4.5-r0 \
+        gnupg=2.4.7-r0 \
         libffi-dev=3.4.6-r0 \
         libnsl-dev=2.0.1-r0 \
         libtirpc-dev=1.3.4-r0 \
