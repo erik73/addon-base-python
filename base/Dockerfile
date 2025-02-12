@@ -33,7 +33,7 @@ RUN \
         linux-headers=6.6-r1 \
         make=4.4.1-r2 \
         ncurses-dev=6.5_p20241006-r3 \
-        openssl-dev=3.3.2-r6 \
+        openssl-dev=3.3.3-r0 \
         pax-utils=1.3.8-r1 \
         readline-dev=8.2.13-r0 \
         sqlite-dev=3.48.0-r0 \
