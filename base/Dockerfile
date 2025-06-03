@@ -20,7 +20,7 @@ RUN \
     apk add --no-cache --virtual .build-dependencies \
         bzip2-dev=1.0.8-r6 \
         dpkg-dev=1.22.11-r0 \
-        dpkg=1.22.11-r0 \
+        dpkg=1.22.15-r0 \
         expat-dev=2.7.0-r0 \
         findutils=4.10.0-r0 \
         gcc=14.2.0-r4 \
