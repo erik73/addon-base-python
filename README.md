@@ -6,9 +6,6 @@
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
-![Supports armhf Architecture][armhf-shield]
-![Supports armv7 Architecture][armv7-shield]
-![Supports i386 Architecture][i386-shield]
 
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
@@ -45,7 +42,7 @@ You could [open an issue here][issue] GitHub.
 
 MIT License
 
-Copyright (c) 2019-2024 Erik Hilton
+Copyright (c) 2019-2025 Erik Hilton
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -67,17 +64,14 @@ SOFTWARE.
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[commits-shield]: https://img.shields.io/github/commit-activity/y/erik73/addon-base-python37.svg
-[commits]: https://github.com/erik73/addon-base-python37/commits/main
-[contributors]: https://github.com/erik73/addon-base-python37/graphs/contributors
-[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[issue]: https://github.com/erik73/addon-base-python37/issues
+[commits-shield]: https://img.shields.io/github/commit-activity/y/erik73/addon-base-python.svg
+[commits]: https://github.com/erik73/addon-base-python/commits/main
+[contributors]: https://github.com/erik73/addon-base-python/graphs/contributors
+[issue]: https://github.com/erik73/addon-base-python/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [label-schema]: http://label-schema.org/
-[license-shield]: https://img.shields.io/github/license/erik73/addon-base-python37.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
+[license-shield]: https://img.shields.io/github/license/erik73/addon-base-python.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [project-stage-shield]: https://img.shields.io/badge/Project%20Stage-Production%20Ready-brightgreen.svg
-[releases-shield]: https://img.shields.io/github/release/erik73/addon-base-python37.svg
-[releases]: https://github.com/erik73/addon-base-python37/releases
+[releases-shield]: https://img.shields.io/github/release/erik73/addon-base-python.svg
+[releases]: https://github.com/erik73/addon-base-python/releases
