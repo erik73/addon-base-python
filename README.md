@@ -14,7 +14,7 @@ Docker Python 3.11 base image.
 
 ## About
 
-Python 3.11 image for addons.
+Python 3.14 image for addons.
 
 This follows Home Assistant's base images, which made the same move.
 
