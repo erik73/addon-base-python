@@ -1,5 +1,4 @@
 ARG BUILD_FROM=ghcr.io/erik73/base/amd64:5.0.7
-
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -14,6 +13,7 @@ ARG PYTHON_VERSION="v3.14.0"
 ARG PYTHON_SHA256="2299dae542d395ce3883aca00d3c910307cd68e0b2f7336098c8e7b7eee9f3e9"
 ARG PYTHON_PIP_VERSION="25.3"
 ARG PYTHON_SETUPTOOLS_VERSION="80.9.0"
+
 # hadolint ignore=DL3003,DL4006,SC2155
 RUN \
     apk add --no-cache --virtual .build-dependencies \
@@ -27,9 +27,9 @@ RUN \
         libffi-dev=3.4.8-r0 \
         libnsl-dev=2.0.1-r1 \
         libtirpc-dev=1.3.5-r0 \
-        musl-dev=1.2.5-r10 \
         linux-headers=6.14.2-r0 \
         make=4.4.1-r3 \
+        musl-dev=1.2.5-r10 \
         ncurses-dev=6.5_p20250503-r0 \
         openssl-dev=3.5.4-r0 \
         pax-utils=1.3.8-r1 \
@@ -43,6 +43,7 @@ RUN \
         xz-dev=5.8.1-r0 \
         xz=5.8.1-r0 \
         zlib-dev=1.3.1-r2 \
+        zstd-dev=1.5.7-r0 \
     \
     && curl -J -L -o /tmp/python.tar.xz \
         "https://www.python.org/ftp/python/${PYTHON_VERSION#v}/Python-${PYTHON_VERSION#v}.tar.xz" \
