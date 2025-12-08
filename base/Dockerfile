@@ -23,7 +23,7 @@ RUN \
         expat-dev=2.7.3-r0 \
         findutils=4.10.0-r0 \
         gcc=14.2.0-r6 \
-        gdbm-dev=1.24-r0 \
+        gdbm-dev=1.26-r0 \
         libffi-dev=3.4.8-r0 \
         libnsl-dev=2.0.1-r1 \
         libtirpc-dev=1.3.5-r1 \
