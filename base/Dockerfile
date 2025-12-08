@@ -32,7 +32,7 @@ RUN \
         musl-dev=1.2.5-r21 \
         ncurses-dev=6.5_p20251123-r0 \
         openssl-dev=3.5.4-r0 \
-        pax-utils=1.3.8-r1 \
+        pax-utils=1.3.8-r2 \
         readline-dev=8.2.13-r1 \
         sqlite-dev=3.49.2-r1 \
         tar=1.35-r3 \
