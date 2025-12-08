@@ -26,7 +26,7 @@ RUN \
         gdbm-dev=1.24-r0 \
         libffi-dev=3.4.8-r0 \
         libnsl-dev=2.0.1-r1 \
-        libtirpc-dev=1.3.5-r0 \
+        libtirpc-dev=1.3.5-r1 \
         linux-headers=6.14.2-r0 \
         make=4.4.1-r3 \
         musl-dev=1.2.5-r10 \
