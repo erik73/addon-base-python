@@ -27,7 +27,7 @@ RUN \
         libffi-dev=3.5.2-r0 \
         libnsl-dev=2.0.1-r1 \
         libtirpc-dev=1.3.5-r1 \
-        linux-headers=6.14.2-r0 \
+        linux-headers=6.16.12-r0 \
         make=4.4.1-r3 \
         musl-dev=1.2.5-r21 \
         ncurses-dev=6.5_p20251123-r0 \
