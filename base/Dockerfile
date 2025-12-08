@@ -22,7 +22,7 @@ RUN \
         dpkg=1.22.21-r0 \
         expat-dev=2.7.3-r0 \
         findutils=4.10.0-r0 \
-        gcc=14.2.0-r6 \
+        gcc=15.2.0-r2 \
         gdbm-dev=1.26-r0 \
         libffi-dev=3.5.2-r0 \
         libnsl-dev=2.0.1-r1 \
